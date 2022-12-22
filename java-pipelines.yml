@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'eb925b77-0c0d-4159-bef8-6c7923381fd9'
   imageRepository: 'javaimage'
   containerRegistry: 'webdevops.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/hello-world-java/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
